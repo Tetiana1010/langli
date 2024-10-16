@@ -19,7 +19,7 @@ export default function ChatPage({ history }: ChatPageProps) {
     const role = UserRole.User
     return (
         <div>
-            <h1>Chat Page</h1>
+            <h1 className='text-red-300'>Chat Page</h1>
         </div>
     );
 }
